@@ -25,7 +25,7 @@ def count_non_zero(two_d_list):
 def last_elements(two_d_list):
     
     result = []
-    if len(two_d_list) > 0:    
+    if len(two_d_list) > 1:    
         for i in range(len(two_d_list)):
             result.append (two_d_list[i][len(two_d_list[i])-1])
     return result

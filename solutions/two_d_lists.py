@@ -1,10 +1,11 @@
 # TODO: Implement a function that takes a two-dimensional list and returns the sum of each row
 def sum_each_row(two_d_list):
     result = []
-    for row in two_d_list:
-        sum = []
-        for j in range(len(row)):
-            sum = sum + row[j]
+    for i in range(len(two_d_list)):
+        sum = 0
+        for j in range(len(two_d_list[i])):
+            sum = sum + two_d_list[i][j]
+        
         result.append(sum)
     return result
         
